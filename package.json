@@ -1,0 +1,12 @@
+{
+  "name": "online-shop-complex",
+  "version": "1.0.0",
+  "description": "A more complex version of an online shop using Node.js, HTML, CSS, and JavaScript",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

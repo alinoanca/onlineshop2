@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.product, .cart-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+.product-image {
+    max-width: 200px;
+    height: auto;
+}
+.add-to-cart, .cart-link, button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.add-to-cart:hover, .cart-link:hover, button:hover {
+    background-color: #218838;
+}
+#checkout-form input {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+}
